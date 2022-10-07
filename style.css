@@ -24,7 +24,7 @@ body {
 }
 
 .container{
-    width: 60%;
+    max-width: 70%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -32,18 +32,21 @@ body {
 
 .out{
     color: #fff;
+    margin: 40px;
 }
 
 .out h1{
-    padding: 10px 0;
+    padding: 20px 0;
+    letter-spacing: 2px;
+    line-height: 1.2;
 }
 
 .out p{
-    font-size: 14px;
+    font-size: 13px;
 }
 
-.in .inner{
-    background-color: #fff;
+.in{
+    width: 1100px;
 }
 
 .in .trial{
@@ -51,32 +54,43 @@ body {
     color: #fff;
     font-size: 12px;
     text-align: center;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
 }
 
+.in .inner{
+    background-color: #fff;
+    border-radius: 8px;
+    text-align: center;
+
+}
 .in form{
-    display: grid;
-    place-items: center;
-    padding: 20px;
+    padding: 30px;
 }
 
 .in form input{
-    margin: 10px;
+    margin-bottom:  15px;
     padding: 10px 20px;
     width: 100%;
-    border: 1px solid gray;
+    border: 1px solid rgb(192, 185, 185);
     border-radius: 3px;
 }
 .in form button{
-    /* margin: 10px; */
     padding: 10px 20px;
     width: 100%;
     border: 1px solid gray;
     border-radius: 3px;
+    background-color: hsl(154, 59%, 51%);
+    color: #fff;
 }
 
 .in .terms{
-    font-size: 12px;
-    
+    font-size: 10px;
+    margin: 12px;
+    color: hsl(246, 25%, 77%);
+}
+
+.terms a {
+    color: hsl(0, 100%, 74%) ;
 }
