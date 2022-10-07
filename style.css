@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,500&display=swap');
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-image: url(./images/bg-intro-desktop.png);
+  background-color: hsl(0, 100%, 74%);
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.container{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.out{
+    color: #fff;
+}
+
+.out h1{
+    padding: 10px 0;
+}
+
+.out p{
+    font-size: 14px;
+}
+
+.in .inner{
+    background-color: #fff;
+}
+
+.in .trial{
+    background-color: hsl(247,32%,48%);
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.in form{
+    display: grid;
+    place-items: center;
+    padding: 20px;
+}
+
+.in form input{
+    margin: 10px;
+    padding: 10px 20px;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.in form button{
+    /* margin: 10px; */
+    padding: 10px 20px;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.in .terms{
+    font-size: 12px;
+    
+}
