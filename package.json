@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "name": "dev",
+  "description": "![Design preview for the Intro component with sign up form coding challenge](./design/desktop-preview.jpg)",
+  "version": "1.0.0",
+  "main": "Installing node package",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Majid-Arab/intro-signup-form.git"
+  },
+  "author": "Majid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Majid-Arab/intro-signup-form/issues"
+  },
+  "homepage": "https://github.com/Majid-Arab/intro-signup-form#readme"
+}
